@@ -1,0 +1,31 @@
+div.hello {
+  background-color: red;
+}
+div.goodbye {
+  background-color: blue;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 5vw;
+  min-height: 200px;
+  background-color: black;
+  display: flex;
+}
+
+header> h1.title{
+color: #fdfcf1;
+text-align: center;
+font-size: 4rem;
+}
+main {
+  height: 90vh;
+  background-color: #fdfcf1;
+}
+footer {
+ height: 5vw;
+ min-height: 50px;
+ background-color: black;
+}
